@@ -1,0 +1,12 @@
+dn: cn=kaliuser, ou=Etudiant, dc=project, dc=sn
+objectClass: top
+objectClass: account
+objectclass: posixAccount
+objectclass: shadowAccount
+cn: Yanatou Doumbouya
+uid: yanatou
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/kali
+userPassword: passer
+LoginShell: /bin/bash

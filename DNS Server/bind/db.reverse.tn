@@ -1,0 +1,13 @@
+;
+; BIND reverse data file for 192.168.56.xxx network
+;
+$TTL	604800
+@	IN	SOA	ad1.projectsec.tn. root.projectsec.tn. (
+			      6 	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ad1.
+10	IN	PTR	ad1.projectsec.tn.
